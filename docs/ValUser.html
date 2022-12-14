@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" type="image/png" href="https://my.cloudlabs.us/assets/img/iconos/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Localhost</title>
+
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="viewport" content="width=device-width">
+</head>1002590978Ciro
+
+<body class="">
+    
+<style>
+    .ingreso_sofiaplus{background-color:#eee;border:1px solid #ddd;border-radius:8px 8px 8px 8px}h2{color:#333;font-size:1.2em;font-weight:bolder;margin-bottom:0;padding-bottom:0;display:inline}select{border:medium none!important;height:25px;margin-top:7px;width:190px;font-size:12px}.select_blanco{background-color:#fff;border:1px solid #ccc;border-radius:6px 6px 6px 6px;display:inline-block;padding:0 4px 12px}.select_blanco,.select_blanco_error,.select_blanco_obligatorio,.select_blanco_ok{height:25px;margin-top:7px;width:190px}.input_blanco_obligatorio{background-position:172px 7px}.input_blanco,.input_blanco_error,.input_blanco_obligatorio,.input_blanco_ok{background-repeat:no-repeat;border:1px solid #ccc;border-radius:6px 6px 6px 6px;color:#222;font-family:'Helvetica Neue',sans-serif;font-size:13px;margin-top:6px;padding:8px 40px 8px 10px;position:relative;width:150px}.subinstruccionesgrandes{color:#999;display:inline;font-size:.6em;margin-bottom:12px}.boton_verde,.boton_verde_oscuro{border:1px solid #093}.boton_gris,.boton_verde,.boton_verde_oscuro{border-radius:6px 6px 6px 6px;cursor:pointer;font-family:'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-size:14px;font-weight:700;line-height:17px;padding:8px;text-align:center;text-decoration:none;width:200px}.boton_verde{background:none repeat scroll 0 0 #690;border:1px solid #29691d!important;color:#fff!important;transition:border .2s ease 0s}.texto_input{font-size:.8em}.texto_input{display:inline-table;padding-right:10px;width:210px}.enlace{text-align:center;font-size:12px}.verde{text-decoration:none}a:link{color:#369;font-size:12px}.verde{color:#369!important;font-size:12px;font-weight:600}body{font-family:Arial,Helvetica,sans-serif}.verde_real{color:grey!important;font-size:14px;font-weight:600}body{font-family:Arial,Helvetica,sans-serif}
+</style>
+
+<div class="col-md-12" id="contenido" style="display: block;">
+    <div class="row" id="header" style="padding: 7px 0;">
+        
+        
+    </div>
+    <br>
+    <div class="row" style="margin-top: 30px;height: 430px">
+        <div class="col-md-12" style="height: 100%; display: flex; justify-content: center">
+            
+            <form method="post" action="http://senasofiaplus.edu.co:80/sofia/welcome.jsp" name="gwLogin" id="gwLogin">
+                <input type="hidden" name="action" value="login">
+                <input type="hidden" name="username" id="username" value="">
+
+                <table height="350" border="0" id="marcoingreso" class="ingreso_sofiaplus" style="padding: 10px 0px">
+                    <tbody><tr>
+                        <td align="center" valign="top">
+                            <h2>
+                                Ingreso <span class="subinstruccionesgrandes">Usuarios
+                          registrados</span>
+                            </h2>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" valign="top"><span class="texto_input">Tipo
+                        de documento de identidad</span></td>
+                    </tr>
+                    <tr>
+                        <td height="24" align="center" valign="top">
+
+                            <div class="form-group"><select name="typeDocument" id="typeDocument" size="1" class="form-control" style="width: 190px">
+                                <option value="CC" selected="selected">Cédula de
+                                    Ciudadanía</option>
+                                
+                            </select><span class="material-input"></span></div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding-left: 30px" valign="top">
+                            <span class="texto_input">Número de documento:</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top">
+                            <div class="form-group"><input type="text" name="document" id="document" class="form-control" style="width: 190px" maxlength="20" size="28"><span class="material-input"></span></div></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 30px" valign="top">
+                            <span class="texto_input">Contraseña:</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+
+                        <td valign="top" align="center">
+                            <div class="form-group"><input type="password" name="password" id="passwd" class="form-control" size="28" value="" style="width: 190px"><span class="material-input"></span></div>
+
+                        </td>
+                    </tr>
+
+                    
+
+                    <tr>
+                        <td align="center" valign="top">
+
+                            <div id="mensajes" width="20" style="max-width:200px" height="22" class="verde_real">
+                            <font color="red">
+                                
+                            </font>
+                        </div></td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" valign="top">
+                            
+                             
+                             <input type="submit" name="ingresar" class="boton_verde" value="Ingresar" id="ingresar">
+                        </td>
+                    </tr>
+
+                </tbody></table>
+
+
+            </form>
+        </div>
+
+
+    </div>    
+    </div>
+</body></html>
